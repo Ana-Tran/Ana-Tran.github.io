@@ -1,13 +1,14 @@
 import React from "react";
-import { Footer, Hero, Navbar } from ".";
+import { Footer, Hero, Navbar, Projects } from ".";
 export default function HomePage() {
-return (
+  return (
     <div className="container">
-      <Navbar/>
-      <Hero/>
-      <Footer/>
+      <Navbar />
+      <Hero />
+      <body>
+        <Projects />
+      </body>
+      <Footer />
     </div>
-);
+  );
 }
-
-
