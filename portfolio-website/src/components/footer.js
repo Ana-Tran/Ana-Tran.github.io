@@ -1,5 +1,4 @@
 import React from "react";
-import purin from "../assets/purin.png";
 
 export default function footer() {
   return (
