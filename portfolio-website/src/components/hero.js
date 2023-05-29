@@ -9,7 +9,7 @@ export default function hero() {
   };
 
   return (
-    <div class="px-4 py-5 my-5 text-center">
+    <div class="px-4 py-5 my-5 text-center" id="about">
       <img
         class="d-block mx-auto mb-4"
         src={logo}
@@ -33,14 +33,14 @@ export default function hero() {
         />
       </h4>
       <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">
+        {/* <p class="lead mb-4">
           Hi, my name is Ana and I am a new graduate looking for software
           developer roles. I am a driven and passionate individual who is eager
           to begin my career. I am currently learning react, python, and
           flutter. I am excited to bring my skills and enthusiasm to a new role
           and look forward to the opportunity to grow and learn in a dynamic
           work environment.
-        </p>
+        </p> */}
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           <button
             type="button"

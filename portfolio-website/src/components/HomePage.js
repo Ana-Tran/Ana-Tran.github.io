@@ -1,11 +1,12 @@
 import React from "react";
-import { Footer, Hero, Navbar, Projects } from ".";
+import { About, Footer, Hero, Navbar, Projects } from ".";
 export default function HomePage() {
   return (
     <div className="container">
       <Navbar />
       <Hero />
       <body>
+        <About/>
         <Projects />
       </body>
       <Footer />
