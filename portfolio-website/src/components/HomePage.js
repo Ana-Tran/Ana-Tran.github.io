@@ -6,8 +6,8 @@ export default function HomePage() {
       <Navbar />
       <Hero />
       <body>
-        <About/>
         <Projects />
+        <About/>
       </body>
       <Footer />
     </div>
