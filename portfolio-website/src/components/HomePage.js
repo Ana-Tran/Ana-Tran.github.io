@@ -1,5 +1,5 @@
 import React from "react";
-import { About, Footer, Hero, Navbar, Projects } from ".";
+import { About, Contact, Footer, Hero, Navbar, Projects } from ".";
 export default function HomePage() {
   return (
     <div className="container">
@@ -8,6 +8,7 @@ export default function HomePage() {
       <body>
         <Projects />
         <About/>
+        <Contact/>
       </body>
       <Footer />
     </div>
