@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be827e73.css",
+    "main.js": "/static/js/main.42eeac51.js",
+    "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
+    "static/media/purin.png": "/static/media/purin.59798573f859f67d3f5a.png",
+    "static/media/Ana_Tran_Resume.pdf": "/static/media/Ana_Tran_Resume.6f3a2d43dd724d7b968c.pdf",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.cd96279805f065f39322.jpg",
+    "static/media/logo.png": "/static/media/logo.e8a3dd44ac155fc3d56a.png",
+    "index.html": "/index.html",
+    "main.be827e73.css.map": "/static/css/main.be827e73.css.map",
+    "main.42eeac51.js.map": "/static/js/main.42eeac51.js.map",
+    "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be827e73.css",
+    "static/js/main.42eeac51.js"
+  ]
+}
