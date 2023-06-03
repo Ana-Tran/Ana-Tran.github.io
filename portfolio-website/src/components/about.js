@@ -4,7 +4,7 @@ import profile from "../assets/profile_pic.jpg";
 export default function about() {
   return (
     <div class="container" id="custom-cards">
-      <h2 class="pb-2 border-bottom">About Me</h2>
+      <h2 class="pb-2 border-bottom" id="about">About Me</h2>
       <div class="row row-cols-lg-2 justify-content-center py-5">
         <div class="col w-35">
           <img

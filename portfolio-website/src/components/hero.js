@@ -9,7 +9,7 @@ export default function hero() {
   };
 
   return (
-    <div class="px-4 py-5 my-5 text-center" id="about">
+    <div class="px-4 py-5 my-5 text-center" id="home">
       <img
         class="d-block mx-auto mb-4"
         src={logo}

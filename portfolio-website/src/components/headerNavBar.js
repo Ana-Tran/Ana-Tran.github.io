@@ -1,33 +1,32 @@
 import React from "react";
 
-
 export default function headerNavBar() {
   return (
-    <div class="container">
-      <header class="d-flex justify-content-center py-3">
+    <header class="d-flex justify-content-center py-3">
+      <nav class="navbar fixed-top navbar-light bg-light">
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a href="#home" class="nav-link " aria-current="page">
+            <a class="nav-link" href="#home">
               Home
             </a>
           </li>
           <li class="nav-item">
-            <a href="#projects" class="nav-link">
+            <a class="nav-link" href="#projects">
               Projects
             </a>
           </li>
           <li class="nav-item">
-            <a href="#about" class="nav-link">
+            <a class="nav-link" href="#about">
               About Me
             </a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">
+            <a class="nav-link" href="#contact">
               Contact
             </a>
           </li>
         </ul>
-      </header>
-    </div>
+      </nav>
+    </header>
   );
 }
