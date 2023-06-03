@@ -67,6 +67,7 @@ export default function contact() {
             <figcaption>Email</figcaption>
           </li>
         </ul>
+        <p>it deployed</p>
       </div>
     </section>
   );
