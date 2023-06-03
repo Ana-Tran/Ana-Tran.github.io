@@ -34,7 +34,6 @@ export default function hero() {
       </h4>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-2">
-          To view my resume, click the button.
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           <button
@@ -42,7 +41,7 @@ export default function hero() {
             class="btn btn-primary btn-lg px-4 gap-3"
             onClick={downloadResume}
           >
-            Resume
+            View Resume
           </button>
         </div>
       </div>
