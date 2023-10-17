@@ -1,7 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
+import css from "../components/stylesheets/project.css";
 
 export default function projects() {
+
+  const GoToProject1 =() => {
+      window.open('https://github.com/Ana-Tran/currency_exchange/tree/main');
+  }
+
+  const GoToProject2 = () => {
+    window.open('https://main.d33wp2p593d8jl.amplifyapp.com/');
+
+  }
+
   return (
     <div class="container px-4 py-5" id="custom-cards">
     <h2 class="pb-2 border-bottom" id="projects">Projects</h2>
@@ -11,22 +22,8 @@ export default function projects() {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+        <div id = "project1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" onClick = {GoToProject1}>
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="me-auto">
-                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"/>
-              </li>
-              <li class="d-flex align-items-center me-3">
-                <svg class="bi me-2" width="1em" height="1em"><use xlinkHref="#geo-fill"></use></svg>
-                <small>Earth</small>
-              </li>
-              <li class="d-flex align-items-center">
-                <svg class="bi me-2" width="1em" height="1em"><use xlinkHref="#calendar3"></use></svg>
-                <small>3d</small>
-              </li>
-            </ul>
           </div>
         </div>
       </motion.div>
@@ -35,22 +32,8 @@ export default function projects() {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+        <div id = "project2" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" onClick = {GoToProject2}>
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="me-auto">
-                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"/>
-              </li>
-              <li class="d-flex align-items-center me-3">
-                <svg class="bi me-2" width="1em" height="1em"><use xlinkHref="#geo-fill"></use></svg>
-                <small>Pakistan</small>
-              </li>
-              <li class="d-flex align-items-center">
-                <svg class="bi me-2" width="1em" height="1em"><use xlinkHref="#calendar3"></use></svg>
-                <small>4d</small>
-              </li>
-            </ul>
           </div>
         </div>
       </motion.div>
