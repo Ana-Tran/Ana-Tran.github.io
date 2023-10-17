@@ -1,0 +1,13 @@
+#project1 {
+    background-image: url('../../assets/currency_converter.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#project2 {
+background-image: url('../../assets/wildRydes.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
