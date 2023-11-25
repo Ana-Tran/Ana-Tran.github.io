@@ -12,6 +12,10 @@ export default function projects() {
     window.open('https://main.d33wp2p593d8jl.amplifyapp.com/');
 
   }
+  const GoToProject3 = () => {
+    window.open('https://github.com/Ana-Tran/cruddemo/tree/main');
+
+  }
 
   return (
     <div class="container px-4 py-5" id="custom-cards">
@@ -22,7 +26,7 @@ export default function projects() {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >
-        <div id = "project1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" onClick = {GoToProject1}>
+        <div id = "project1" class="card card-cover h-500 overflow-hidden text-bg-dark rounded-4 shadow-lg" onClick = {GoToProject1}>
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
           </div>
         </div>
@@ -32,7 +36,7 @@ export default function projects() {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       >
-        <div id = "project2" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" onClick = {GoToProject2}>
+        <div id = "project2" class="card card-cover h-500 overflow-hidden text-bg-dark rounded-4 shadow-lg" onClick = {GoToProject2}>
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
           </div>
         </div>
@@ -42,22 +46,8 @@ export default function projects() {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       >
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="me-auto">
-                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"/>
-              </li>
-              <li class="d-flex align-items-center me-3">
-                <svg class="bi me-2" width="1em" height="1em"><use xlinkHref="#geo-fill"></use></svg>
-                <small>California</small>
-              </li>
-              <li class="d-flex align-items-center">
-                <svg class="bi me-2" width="1em" height="1em"><use xlinkHref="#calendar3"></use></svg>
-                <small>5d</small>
-              </li>
-            </ul>
+        <div id = "project3" class="card card-cover h-500 overflow-hidden text-bg-dark rounded-4 shadow-lg" onClick = {GoToProject3}>
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
           </div>
         </div>
       </motion.div>

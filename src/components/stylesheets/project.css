@@ -1,13 +1,23 @@
 #project1 {
     background-image: url('../../assets/currency_converter.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    height: 300px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #project2 {
-background-image: url('../../assets/wildRydes.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+background-image: url('../../assets/wildRydes.jpg');
+height: 300px;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
+}
+
+#project3 {
+    background-image: url('../../assets/student.jpg');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
