@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import resume from "../resources/Ana_Tran_Resume.pdf";
+import resume from "../resources/Ana-Tran-Resume.pdf";
 import { TypeAnimation } from "react-type-animation";
 
 export default function hero() {
